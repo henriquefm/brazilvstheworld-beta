@@ -5,13 +5,15 @@
     <title>Brasil vs O Mundo</title>
     <script>
       // GitHub Pages only serves real files — a direct visit or refresh on a
-      // client-side route (e.g. /spain/area) has no matching file, so GitHub
-      // Pages serves this 404 page instead. This redirects back to the app's
-      // index.html, encoding the original path so it can be restored there
-      // (see the matching script in index.html).
+      // client-side route (e.g. /brazilvstheworld-beta/spain/area) has no
+      // matching file, so GitHub Pages serves this 404 page instead. This
+      // redirects back to the app's index.html (under the project page's
+      // base path — this is not a user/org page, so the root domain has no
+      // site of its own), encoding the original path so it can be restored
+      // there (see the matching script in index.html).
       // Pattern: https://github.com/rafgraph/spa-github-pages
       var path = window.location.pathname + window.location.search + window.location.hash
-      window.location.replace('/?redirect=' + encodeURIComponent(path))
+      window.location.replace('/brazilvstheworld-beta/?redirect=' + encodeURIComponent(path))
     </script>
   </head>
   <body></body>

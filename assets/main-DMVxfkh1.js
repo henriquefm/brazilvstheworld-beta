@@ -1,0 +1,1 @@
+import{a as e,n as t,o as n,r,s as i,t as a}from"./App-Dp1eQe2b.js";var o=i(n(),1),s=e(),c=t();(0,s.createRoot)(document.getElementById(`root`)).render((0,c.jsx)(o.StrictMode,{children:(0,c.jsx)(r,{basename:`/brazilvstheworld-beta`,children:(0,c.jsx)(a,{})})}));
